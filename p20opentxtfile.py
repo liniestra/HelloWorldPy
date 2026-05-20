@@ -1,0 +1,7 @@
+print("Bienvenido al programa para leer un archivo de texto.")
+print("Abriendo el archivo1.txt.")
+archivo = open("archivo1.txt", "r")
+contenido = archivo.read()
+archivo.close()
+print("Contenido del archivo:")
+print(contenido)
