@@ -1,0 +1,7 @@
+print("Bienvenido al programa para escribir en un archivo de texto.")
+nombre_archivo = input("Escribe el nombre del archivo que deseas crear (el archivo se guardará con extensión .txt): ")
+texto = input("Introduce el texto que deseas guardar en el archivo: ")
+archivo = open(nombre_archivo + ".txt", "w")
+archivo.write(texto)
+archivo.close()
+print("El texto ha sido guardado en el archivo " + nombre_archivo + ".txt")
