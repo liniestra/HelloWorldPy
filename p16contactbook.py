@@ -8,6 +8,6 @@ while True:
     telefono = input("Dame el teléfono de tu nuevo contacto: ")
     contactos[nombre] = telefono
 
-print("Tu agenda de contactos:")
+print("\nTu agenda de contactos:")
 for nombre, telefono in contactos.items():
     print("Nombre:", nombre, ", Teléfono:", telefono)
